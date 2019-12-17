@@ -1,0 +1,15 @@
+nav,ul,li,a{
+    padding: 1%;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+ul{
+    text-align: left;
+}
+
+li{
+    display: inline-block;
+}
