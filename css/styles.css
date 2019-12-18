@@ -15,7 +15,7 @@
 
 #home
 {
-    background: url("../assets/backgrounds/hero.jpg") center center/cover no-repeat;
+    background: url("../img/lauren-fleischmann-R2aodqJn3b8-unsplash.jpg") center center/cover no-repeat;
     height: 100vh;
 
     display: grid;
@@ -108,7 +108,7 @@ a
 #selection
 {
     height: 15vh;
-    background: #C6BFA5;
+    background: rgb(0, 17, 255);
 }
 #selection  .container
 {
