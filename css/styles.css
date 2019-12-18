@@ -1,3 +1,4 @@
+
 /* Import FontAwesome for the checkmark icon */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -55,14 +56,12 @@
 {
     padding: 0.75rem
 }
-
 #logo
 {
     width: 180px;
     margin-left: 8px;
     background: white;
 }
-
 a
 {
     color: white;
@@ -487,5 +486,3 @@ a
         padding: 1rem;
         align-items: center
     }
-    
-}
