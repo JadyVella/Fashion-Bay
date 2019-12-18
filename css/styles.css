@@ -327,7 +327,7 @@ a
 .about-us-text
 {
     max-width: 60%;
-    color: white;
+    color: whitesmoke;
     text-align: center;
 
     border-left: 2px solid #908361;
@@ -375,7 +375,7 @@ a
 #main-footer
 {
     
-    background: #414141;
+    background: grey;
     padding-bottom: 2rem
     
 
@@ -383,7 +383,7 @@ a
 
 .main-footer-text
 {
-    color: white;
+    color: whitesmoke;
     display: grid;
     grid-template-columns: 20% 20% 25%;
     justify-content: center;
