@@ -1,27 +1,4 @@
-<<<<<<< HEAD
-nav>ul>li>a{
-    padding: 0;
-    margin-right: 5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline;
-    color: salmon;
-}
 
-ul{
-    text-align: left;
-}
-
-li{
-    display: inline-block;
-}
-
-nav>ul>li>a:hover{
-    box-shadow: 5px 5px 5p chocolate;
-    color: fuchsia;
-}
-
-=======
 /* Import FontAwesome for the checkmark icon */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -64,7 +41,7 @@ nav>ul>li>a:hover{
 
 .menu 
 {
-    justify-self: end;   
+    justify-self: end; 
 }
 .menu ul
 {
@@ -79,13 +56,12 @@ nav>ul>li>a:hover{
 {
     padding: 0.75rem
 }
-
-.logo
+#logo
 {
     width: 180px;
-    margin-left: 2rem;
+    margin-left: 8px;
+    background: white;
 }
-
 a
 {
     color: white;
@@ -105,17 +81,21 @@ a
 }
 #showcase .heading
 {
-    align-self: flex-end;
-    justify-self: center;
-    font-size: 5rem;
+    /* align-self: flex-end; */
+    /* justify-self: center; */
+    text-align: center;
+    font-size: 60px;
+    color: crimson;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #showcase .slogan
 {
-    align-self: center;
-    justify-self: center;
+    /* align-self: center; */
+    justify-self: end;
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
 }
 #showcase a
 {
@@ -506,6 +486,3 @@ a
         padding: 1rem;
         align-items: center
     }
-    
-}
->>>>>>> 5ebef4e75ae100d6555589315082ffc051e41621

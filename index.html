@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Permanent+Marker&display=swap
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <title>FASHION BAY</title>
 </head>
@@ -15,30 +16,31 @@
     <!--Welcome page-->
     <header id="home">
             <nav id="main-nav">
-                <img class="logo" src="./assets/logo/logo.png">
+               <p> <img id="logo" src="./img/icon.png"></p>
                 <div class="menu">
                         <ul>
                             <li><a href = "#home" class="scroll">Home</a></li>
-                            <li><a href = "#selection" class="scroll" >Products</a></li>
-                            <li><a href = "#store"><img src="./assets/logo/shop.png"></a></li>
+                            <li><a href = "#selection" class="scroll">Products</a></li>
+                            <li><a href = "cart.html"><img src="./assets/logo/shop.png"></a></li>
                         </ul>
                 </div>
             </nav>
-
             <section id="showcase">
       
-                    <p class="heading">Our clothing , your comfort</p>
-                    <p class="slogan">We understand that you need to look good and feel great. <br>It all starts with what you are wearing.</p>
+                    <p class="heading">Fashion Bay,Haven for clothing.</p>
+                    <p class="slogan">"A little bad taste is like a nice splash of paprika.<br>
+                    <br>We all need a splash of bad taste—it's hearty,  <br>it's healthy, it's physical. I think we could use more of it.<br>
+                    <br> No taste is what I'm against." —Diana Vreeland</p>
                     <a href="#selection" class="scroll"><img src="./assets/mouse_click.png" alt="mouse click"></a>
                     
-              </section> 
+              </section>
     </header>
 
 
     <section id="selection">
             <div class="container">
                   <div>
-                              <form accept-charset="UTF-8" action="" class="form" id="pardot-form" method="post" name="pardot-form">
+                    <form accept-charset="UTF-8" action="" class="form" id="pardot-form" method="post" name="pardot-form">
                                           <p class="form-field checkbox1 pd-checkbox required no-label">
                                                 <input id="checkbox1" name="checkbox1" onchange="" type="checkbox" value="" checked = "checked">
                                                 <label class="inline" for="checkbox1">MEN</label>
@@ -88,9 +90,12 @@
                                         <p class="circle green"></p>
                                         <p class="circle blue"></p>
                                         <p class="circle grey"></p>
-                                </div>
-                
+                              </div>
                             </div>
+                            <img src="./assets/products/tshirt.png">                                    
+                            <div class="bottom">
+                                <p class="item-name">T-SHIRT</p>
+                                <p><Kshs class="3">300</Kshs></p>
                             <img src="img/Men/download (1).jpeg">                                    
                             <div class="bottom">
                                 <p class="item-name">SHIRT</p>
@@ -104,7 +109,11 @@
                                 <div>
                                         SIZE <i class="fas fa-angle-down  fa-lg"></i>
                                 </div>
-                            </div>
+                        
+                            <img src="./assets/products/pants.png">
+                            <div class="bottom">
+                                <p class="item-name">PANTS FORCLAZ</p>
+                                <p><Kshs>700</Kshs></p>
                             <img src="img/Men/download (10).jpeg">
                             <div class="bottom">
                                 <p class="item-name">SHIRT</p>
@@ -122,6 +131,34 @@
                                 </div>
                 
                             </div>
+                            <img src="./assets/products/backpack.png">
+                            <div class="bottom">
+                                <p class="item-name">BACKPACK</p>
+                                <p><kshs>6000</kshs></p>
+                            </div>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="item">
+                    <div class="top">
+                        <div>
+                                SIZE <i class="fas fa-angle-down fa-lg"></i>
+                        </div>
+                        <div class="circles">
+                                <p class="circle green"></p>
+                                <p class="circle blue"></p>
+                                <p class="circle grey"></p>
+                        </div>
+        
+                    </div>
+                    <img src="./assets/products/tshirt.png">                                    
+                    <div class="bottom">
+                        <p class="item-name">T-SHIRT</p>
+                        <p><Kshs class="3">300</Kshs></p>
+                    </div>
+                 </div>
                             <img src="img/Men/download (11).jpeg">
                             <div class="bottom">
                                 <p class="item-name">SHIRT</p>
@@ -538,13 +575,14 @@
                                                 </div>
                             
                                         </div>
-                            
+                                        <img src="./assets/products/giacket.png">
                                         <img src="img/Women/Party/download (3).jpeg">
                             
                                         
                             
                                         <div class="bottom">
                                                 <p class="item-name">GIACKET</p>
+                                                <p><Kshs>6000</Kshs></p>
                                                 <p>60,00&pound;</p>
                                         </div>
                                     
@@ -559,12 +597,14 @@
                             
                                         </div>
                             
+                                        <img src="./assets/products/trekkingshoes.png">
                                         <img src="img/Women/Party/download (1).jpeg">
                             
                                         
                             
                                         <div class="bottom">
                                                 <p class="item-name">TREKKING SHOES</p>
+                                                <p><kshs>4000</kshs></p>
                                                 <p>80,00&pound;</p>
                                         </div>
                             
@@ -580,16 +620,43 @@
                                                     <p class="circle white"></p>
                                                 </div>
                                     
-                                                </div>
-                                    
+                                      </div>
+                                                <img src="./assets/products/tshirt_ladies.png">
                                                 <img src="img/Women/Party/download.jpeg">
                                     
                                         
                                     
                                                 <div class="bottom">
                                                 <p class="item-name">T-SHIRT</p>
-                                                <p>5,00&pound;</p>
+
+                                                <p><kshs>300</kshs></p>
                                                 </div>
+                                    
+                                        </div>
+                </section>
+                        <!--CHILDREN-->
+                <section id="children">
+                            <div class="wrapper">
+                                        <p>CHILDREN</p>
+                                        <div class="line"></div>
+                            </div>
+
+                            <div class="next-scroll">
+                                    <p>1 /5 </p>
+                                    <div>
+                                        <p class="fas fa-angle-left" ></p>
+                                        <p class="fas fa-angle-right" ></p> 
+                                    </div>
+                            </div>
+                </section>
+
+            </section>
+
+                  <!--About us section-->
+            <section id="about-us">
+                    <div class="about-us-text">
+                               <p>5,00&pound;</p>
+                         </div>
 
                                     </div>
                                     <div class="item">
