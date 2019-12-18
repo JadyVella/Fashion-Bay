@@ -81,9 +81,12 @@ a
 }
 #showcase .heading
 {
-    align-self: flex-end;
-    justify-self: center;
-    font-size: 5rem;
+    /* align-self: flex-end; */
+    /* justify-self: center; */
+    text-align: center;
+    font-size: 60px;
+    color: crimson;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #showcase .slogan
