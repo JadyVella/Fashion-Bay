@@ -92,9 +92,10 @@ a
 #showcase .slogan
 {
     /* align-self: center; */
-    justify-self: center;
+    justify-self: end;
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
 }
 #showcase a
 {
