@@ -15,7 +15,7 @@
 
 #home
 {
-    background: url("../assets/backgrounds/hero.jpg") center center/cover no-repeat;
+    background: url("../img/lauren-fleischmann-R2aodqJn3b8-unsplash.jpg") center center/cover no-repeat;
     height: 100vh;
 
     display: grid;
@@ -108,7 +108,7 @@ a
 #selection
 {
     height: 15vh;
-    background: #C6BFA5;
+    background: beige;
 }
 #selection  .container
 {
@@ -162,7 +162,7 @@ a
 /* style the unchecked checkbox */
 .pd-checkbox input + label:before {
     content: '';
-    background: #fff;
+    background: skyblue;
     border: 2px solid #CCCCCC;
     display: inline-block;
     vertical-align: middle;
@@ -178,7 +178,7 @@ a
 .pd-checkbox input:checked + label:before {
     content: "\f00c";
     font-family: 'FontAwesome';
-    background: #FFFFFF;
+    background: skyblue;
     color: #A99B78;
     border-color:#AC9F7B;
 }
@@ -230,7 +230,7 @@ a
 {
     width: 300px;
     height: 400px;
-    background: #f5f5f7;
+    background: gold;
     justify-self: center;
     border: 2px white solid;
 
@@ -250,7 +250,7 @@ a
 }
 .item-name
 {
-    color: #C7BFAA
+    color: black
 }
 
 .top
@@ -280,6 +280,11 @@ a
 }
 
 #women .next-scroll
+{
+    align-items: flex-start;
+}
+
+#children .next-scroll
 {
     align-items: flex-start;
 }
@@ -318,7 +323,9 @@ a
 #about-us
 {
     height: 40vh;
-    background: url("../assets/backgrounds/about.jpg") center/cover no-repeat;
+    background: url("../img/logo/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     
     display: flex;
     justify-content: center;
@@ -327,8 +334,9 @@ a
 .about-us-text
 {
     max-width: 60%;
-    color: whitesmoke;
+    color: black;
     text-align: center;
+    font-family: 'Marko One', serif;
 
     border-left: 2px solid #908361;
     border-right: 2px solid #908361;
