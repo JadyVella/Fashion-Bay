@@ -128,11 +128,3 @@ $(document).ready(function()
         )
     })
 })
-
-
-
-$(document).ready(function() {
-    $("#men").click(function() {
-        $("#store").add("#men")
-    })
-})
