@@ -323,7 +323,7 @@ a
 #about-us
 {
     height: 40vh;
-    background: url("../img/logo/images.jpeg");
+    background-color: beige;
     background-repeat: no-repeat;
     background-size: cover;
     
